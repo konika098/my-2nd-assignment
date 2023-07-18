@@ -1,5 +1,26 @@
 /* responsive media queries */
-@media screen and (max-width:576px) {
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-title{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
    
+    .nav-item-menu{
+        flex-direction: column;
+        margin-top: 36px;
+    }
+    .follower-box{
+        margin-top:60px ;
+    }
     
+    }
+    
+
+  
 }
