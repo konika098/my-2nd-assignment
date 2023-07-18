@@ -131,3 +131,30 @@ p{
     margin-left: 10px;
 
 }
+.online-games-headline{
+   text-align: center;
+}
+.online-games-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top:  120px; 
+    margin-bottom: 16px;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.online-games-text{
+    font-size: 18px;
+    margin-bottom: 42px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+}
