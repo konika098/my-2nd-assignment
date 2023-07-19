@@ -1,45 +1,52 @@
 /*shared style */
-*{  
-     font-family: Work Sans;
-     color: #534C64;
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+* {
+    font-family: Work Sans;
+    color: #534C64;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 /*nav style start here*/
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 130px;
     margin: 0 auto;
     align-items: center;
-    
-   
+
+
 }
-.nav-title{
+
+.nav-title {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.nav-icon{
+
+.nav-icon {
     width: 86.041px;
     height: 40px;
 }
-.web-name{
+
+.web-name {
     font-size: 45px;
     font-weight: 700;
     color: black;
 }
-.web-name-letter{
-    color: #FF42A5 ;
-   
+
+.web-name-letter {
+    color: #FF42A5;
+
 }
+
 .navbar {
     display: flex;
     align-items: center;
 }
-.nav-item-menu{
+
+.nav-item-menu {
     display: flex;
     gap: 32px;
     color: #3C354F;
@@ -50,7 +57,7 @@
     list-style: none;
 }
 
-.follower-box{
+.follower-box {
     width: 262px;
     height: 56px;
     border-radius: 8px;
@@ -63,136 +70,152 @@
     color: #3C354F;
     margin-left: 32px;
 }
-p{
+
+p {
     padding-left: 24px;
     padding-top: 18px;
     padding-bottom: 18px;
 }
-.youtube-icon{
-    width: 24px; 
+
+.youtube-icon {
+    width: 24px;
     height: 24px;
     margin-left: 24px;
 }
-.tiktok-icon{
+
+.tiktok-icon {
     width: 24px;
     height: 24px;
     margin-left: 16px;
 }
+
 /*banner style start here*/
-.banner-container{
+.banner-container {
     width: 100%;
     height: 700px;
     background: #FFF;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.banner-content{
+
+.banner-content {
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
 }
-.banner-title{
+
+.banner-title {
     color: #0B0223;
     font-size: 48px;
 }
-.banner-text{
+
+.banner-text {
     font-size: 95px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
 }
-.banner-list-item{
+
+.banner-list-item {
     list-style: none;
     font-size: 20px
 }
-.banner-list-item1{
+
+.banner-list-item1 {
     margin-top: 24px;
 }
-.banner-list-item2{
+
+.banner-list-item2 {
     margin-top: 17px;
     margin-bottom: 17px;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 48px;
     padding: 21px 40px;
     border: none;
     margin-top: 40px;
-    color:white;
+    color: white;
     font-size: 20px;
-   
-}
-.sign-btn{
-    background-color: #FF42A5 ;
-   
 
 }
-.go-btn{
+
+.sign-btn {
+    background-color: #FF42A5;
+
+
+}
+
+.go-btn {
     background-color: #4EC5F7;
     margin-left: 10px;
 
 }
+
 /*online-game-section style start here*/
-.online-games-headline{
-   text-align: center;
+.online-games-headline {
+    text-align: center;
 }
-.online-games-title{
+
+.online-games-title {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
-    margin-top:  120px; 
+    margin-top: 120px;
     margin-bottom: 16px;
 }
-.funny-videos{
+
+.funny-videos {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.online-games-text{
+
+.online-games-text {
     font-size: 18px;
     margin-bottom: 42px;
+}
+.card{
+    width: 300px;
+}
+.card img{
+    width: 100%;
 }
 .cards{
     display: grid;
     grid-template-columns: repeat(4,300px);
     justify-content: center;
     column-gap: 24px;
-
     
-   
-}
-.card{
-    
-    width: 300px;
 }
 
-.card img{
-    width: 100%;
-}
 /*play-instantly style start here*/
-.play-instantly-container{
+.play-instantly-container {
     display: flex;
     justify-content: space-around;
-   align-items: center;
+    align-items: center;
     margin-top: 100px;
-   
+
 }
 
-.play-instantly-title{
+.play-instantly-title {
     font-size: 48px;
     font-weight: 700;
     color: #0B0223;
     text-align: right;
-    
+
 }
-.play-instantly{
-    color: #F948B2 ;
+
+.play-instantly {
+    color: #F948B2;
 }
-.play-instantly-text{
+
+.play-instantly-text {
     font-size: 18px;
     font-weight: 400;
     width: 320px;
@@ -200,15 +223,71 @@ p{
     margin-top: 20px;
 
 }
-.play-instantly-img1{
+.play-instantly-img{
     position: relative;
 }
-.play-instantly-img2{
+.play-instantly-img div {
     position: absolute;
-    display: flex;
-    bottom: -1400px;
-    left:970px;
+    width: 42%;
+    bottom:-50px ;
+    left: -60px;
+}
+.play-instantly-img div > img {
+    width: 100%;
 }
 
-    
 
+
+/*more button style start here*/
+.btn-container {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5,248px);
+    justify-content: center;
+}
+.btn-container button img{
+    width: 30px;
+    height: 30px;
+}
+.btn-container button{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    
+    align-items: center;
+    padding-top:18px ;
+    padding-bottom: 18px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 50px;
+    width: 248px;
+    height: 80px;
+    background: #FFF;
+    font-size: 20px;
+    color: #0B0223;
+    border:none;
+}
+.btn-container button:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:1px solid #F948B2;
+    cursor: pointer;
+}
+.footer-container{
+    width: 100%;
+    height: 700px;
+    background-color:#0B0223;
+    margin-top: 120px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.footer-icon-name{
+    color: white;
+    font-size: 45px;
+}

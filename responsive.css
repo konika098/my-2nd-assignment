@@ -1,83 +1,116 @@
 /* responsive media queries */
 @media screen and (max-width:576px) {
-    header{
+    header {
         height: 100%;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
         height: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
-       
+
     }
-  
-    .navbar{
+
+    .navbar {
         flex-direction: column;
     }
-   
-    .nav-item-menu{
+
+    .nav-item-menu {
         flex-direction: column;
         margin-top: 36px;
     }
-    .follower-box{
-        margin-top:60px ;
+
+    .follower-box {
+        margin-top: 60px;
     }
-    .banner-content{
-   
-   
+
+    .banner-content {
+
+
         text-align: center;
-       
-       
-       }
-       .banner-container{
+
+
+    }
+
+    .banner-container {
         flex-direction: column-reverse;
         padding-top: 20px;
         height: 100%;
-       }
-    .banner-img{
+    }
+
+    .banner-img {
         width: 100%;
 
     }
-    .banner-img img{
-        width: 100%;}
-     .cards{
-            display: grid;
-            grid-template-columns: repeat(1,200px);
-            justify-content: center;
-            align-items: center;}
-    .online-games-headline{
-                text-align: center;
-                padding: 20px;
-             }
-            
 
-    
-    
+    .banner-img img {
+        width: 100%;
     }
-/*medium device*/
-    @media screen and (min-width:576px) and (max-width:960px){
-       .nav-container{
-            flex-direction: column;
-            height: 100%;
-            margin-top: 20px;
-            margin-bottom: 20px;
-           
-        }
- 
-.navbar{
-    margin-top: 30px;
+.online-games-title{
+    font-size: 35px;
 }
-.banner-container{
-    flex-direction: column-reverse;
-    padding-top: 20px;
-    height: 100%;
-    margin: 0 auto;
-   }
-   
+    .online-games-text {
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+        
+    }
+.cards{
+    grid-template-columns: repeat(1,300px);
+    justify-content: center;
+    row-gap: 24px;
+    
+}
+.play-instantly-container{
+    flex-direction: column;
+}
+.play-instantly-img{
+    width: 70%;
+    padding: 20px;
+}
+.play-instantly-img > img {
+    width: 100%;
+}
+.play-instantly-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.play-instantly-text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.btn-container {
+   display: grid;
+    grid-template-columns: repeat(1,248px);
+    justify-content: center;
+    row-gap: 20px;
+
+
+
+
+}
+
+/*medium device*/
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav-container {
+        flex-direction: column;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
     }
 
-    
+    .navbar {
+        margin-top: 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        height: 100%;
+        margin: 0 auto;
+    }
 
 
-  
+}
