@@ -364,3 +364,20 @@ p {
     padding-top: 40px;
 
 }
+.card{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: none;
+}
+.card:hover .img1{
+    display: block;
+
+}
+.card:hover {
+    filter: brightness(30%);
+    
+}
