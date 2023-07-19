@@ -84,33 +84,15 @@
    display: grid;
     grid-template-columns: repeat(1,248px);
     justify-content: center;
-    row-gap: 20px;
-
-
-
-
+    row-gap: 20px;}
+.footer-about{
+       grid-template-columns: repeat(3,95px);
+    }
+    .footer-logo {
+        grid-template-columns: repeat(3, 20px);
+    }
+    .footer-terms{
+        grid-template-columns: repeat(2, 180px);
+    }
 }
 
-/*medium device*/
-@media screen and (min-width:576px) and (max-width:960px) {
-    .nav-container {
-        flex-direction: column;
-        height: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-
-    }
-
-    .navbar {
-        margin-top: 30px;
-    }
-
-    .banner-container {
-        flex-direction: column-reverse;
-        padding-top: 20px;
-        height: 100%;
-        margin: 0 auto;
-    }
-
-
-}
