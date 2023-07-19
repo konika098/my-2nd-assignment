@@ -13,6 +13,7 @@
     width: 100%;
     height: 130px;
     margin: 0 auto;
+    align-items: center;
     
    
 }
@@ -82,12 +83,15 @@ p{
     width: 100%;
     height: 700px;
     background: #FFF;
-    background-image: url(images/Group\ 14.png);
-    background-repeat: no-repeat;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
     
+}
+.banner-content{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
 }
 .banner-title{
     color: #0B0223;
@@ -131,6 +135,7 @@ p{
     margin-left: 10px;
 
 }
+/*online-game-section style start here*/
 .online-games-headline{
    text-align: center;
 }
@@ -152,9 +157,58 @@ p{
     margin-bottom: 42px;
 }
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
     justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin: 0 auto;
+    column-gap: 24px;
+
+    
+   
 }
+.card{
+    
+    width: 300px;
+}
+
+.card img{
+    width: 100%;
+}
+/*play-instantly style start here*/
+.play-instantly-container{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    margin-top: 100px;
+   
+}
+
+.play-instantly-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: right;
+    
+}
+.play-instantly{
+    color: #F948B2 ;
+}
+.play-instantly-text{
+    font-size: 18px;
+    font-weight: 400;
+    width: 320px;
+    text-align: right;
+    margin-top: 20px;
+
+}
+.play-instantly-img1{
+    position: relative;
+}
+.play-instantly-img2{
+    position: absolute;
+    display: flex;
+    bottom: -1400px;
+    left:970px;
+}
+
+    
+

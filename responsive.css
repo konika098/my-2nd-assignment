@@ -1,12 +1,16 @@
 /* responsive media queries */
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
+    header{
+        height: 100%;
+    }
     .nav-container{
         flex-direction: column;
-        justify-content: center;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
     }
-    .nav-title{
-        flex-direction: column;
-    }
+  
     .navbar{
         flex-direction: column;
     }
@@ -18,9 +22,62 @@
     .follower-box{
         margin-top:60px ;
     }
+    .banner-content{
+   
+   
+        text-align: center;
+       
+       
+       }
+       .banner-container{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        height: 100%;
+       }
+    .banner-img{
+        width: 100%;
+
+    }
+    .banner-img img{
+        width: 100%;}
+     .cards{
+            display: grid;
+            grid-template-columns: repeat(1,200px);
+            justify-content: center;
+            align-items: center;}
+    .online-games-headline{
+                text-align: center;
+                padding: 20px;
+             }
+            
+
+    
     
     }
+/*medium device*/
+    @media screen and (min-width:576px) and (max-width:960px){
+       .nav-container{
+            flex-direction: column;
+            height: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+           
+        }
+ 
+.navbar{
+    margin-top: 30px;
+}
+.banner-container{
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    height: 100%;
+    margin: 0 auto;
+   }
+   
+
+    }
+
     
 
+
   
-}
